@@ -1,8 +1,12 @@
 # List of required packages (Dependencies)
-redis
 
 # If you need to specify a version
 requests==2.16.5
+psycopg2==2.7.3.2
+python-telegram-bot==9.0.0
+SQLAlchemy==1.2.2
+configparser==3.5.0
+Unidecode==1.0.22
 
 # Or you need not a pip package, @'...' specifies git branch
 git+https://github.com/Kylmakalle/pyTelegramBotAPI.git@feature-BotAPIV3
